@@ -5,8 +5,6 @@ This project aims to analyze operational, billing, and healthcare trends within 
 
 The analysis provides a complete picture of patient admissions, bed occupancy, diagnostic trends, billing vs insurance alignment, and doctor-specific feedback performance.
 
----
-
 ## 📁 Dataset Overview  
 While the raw dataset was processed within Power BI, the key fields analyzed include:
 
@@ -17,8 +15,6 @@ While the raw dataset was processed within Power BI, the key fields analyzed inc
 - **Test Type** (MRI, CT Scan, X-Ray, etc.)
 - **Doctor Feedback Volume**
 
----
-
 ## 📌 Key Questions Answered  
 
 1. **What is the total billing amount for the hospital over the reporting period?**
@@ -27,8 +23,6 @@ While the raw dataset was processed within Power BI, the key fields analyzed inc
 4.  **What is the comparison between billing amount and health insurance coverage?**
 5.  **Which doctors received the most feedback from patients?**
 6.  **Which tests generate the most billing revenue?**  
-
----
 
 ## 🔄 Process Followed  
 
@@ -48,16 +42,12 @@ While the raw dataset was processed within Power BI, the key fields analyzed inc
    - Focused on clarity and hospital KPIs like occupancy, billing, and satisfaction.  
    - Added cards, clustered bars, and line charts for dynamic storytelling.
 
----
-
 ## 📊 Dashboard Preview
 
 📎 **Download/View Dashboard (PDF)**: [`Apollo Hospital Analysis.pdf`](./Apollo%20Hospital%20Analysis.pdf)
 
 ![p1](https://github.com/user-attachments/assets/411e58ea-bf10-4717-b1e9-32dbc1b5e708)
 
-
----
 
 ## 🔍 Key Insights
 
@@ -67,8 +57,6 @@ While the raw dataset was processed within Power BI, the key fields analyzed inc
 - There’s opportunity to reduce patient out-of-pocket expenses by aligning billing with insurance trends.
 - **Bed usage** in Private and ICU is high — indicating demand for premium care.
 
----
-
 ## 🧾 Conclusion  
 
 This analysis provides Apollo Hospitals with critical operational insights:
@@ -76,8 +64,6 @@ This analysis provides Apollo Hospitals with critical operational insights:
 - Strategic planning for **diagnosis frequency**  
 - Improved **billing and insurance planning**  
 - Enhanced **doctor performance monitoring** based on feedback data
-
----
 
 ## ⚙️ Tools Used  
 - Microsoft Power BI  

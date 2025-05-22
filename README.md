@@ -6,7 +6,7 @@ This project aims to analyze operational, billing, and healthcare trends within 
 
 The analysis provides a complete picture of patient admissions, bed occupancy, diagnostic trends, billing vs insurance alignment, and doctor-specific feedback performance.
 
----
+--
 
 ## 📁 Dataset Overview
 
@@ -19,7 +19,7 @@ While the raw dataset was processed within **Power BI** and **MySQL**, the key f
 * **Test Type** (MRI, CT Scan, X-Ray, etc.)
 * **Doctor Feedback Volume**
 
----
+--
 
 ## 📌 Key Questions Answered
 
@@ -34,7 +34,7 @@ While the raw dataset was processed within **Power BI** and **MySQL**, the key f
 9. **What is the patient follow-up compliance rate?**
 10. **Which departments have the highest occupancy pressure?**
 
----
+--
 
 ## 🔄 Process Followed
 
@@ -67,7 +67,7 @@ While the raw dataset was processed within **Power BI** and **MySQL**, the key f
 * Custom charts for doctor-wise feedback, diagnosis breakdown, and insurance analysis.
 * Slicers enabled department-wise filtering and dynamic report interaction.
 
----
+--
 
 ## 📊 Dashboard Preview
 
@@ -75,7 +75,7 @@ While the raw dataset was processed within **Power BI** and **MySQL**, the key f
 
 ![p1](https://github.com/user-attachments/assets/411e58ea-bf10-4717-b1e9-32dbc1b5e708)
 
----
+--
 
 ## 🔍 Key Insights
 
@@ -86,7 +86,7 @@ While the raw dataset was processed within **Power BI** and **MySQL**, the key f
 * **Private and ICU beds** saw higher usage, suggesting a demand for premium care services.
 * **Average length of stay** was around 3.2 days — an important indicator of recovery efficiency.
 
----
+--
 
 ## 🧾 Conclusion
 
@@ -97,7 +97,7 @@ This analysis provides Apollo Hospitals with critical operational insights:
 * Improved **insurance alignment** for financial planning
 * Enhanced **doctor performance tracking** and patient follow-up management
 
----
+--
 
 ## ⚙️ Tools Used
 
@@ -105,6 +105,3 @@ This analysis provides Apollo Hospitals with critical operational insights:
 * Power Query Editor
 * **MySQL Workbench** (for structured data transformation and KPI querying)
 
----
-
-Let me know if you'd like the `.sql` file with all queries or a Markdown version for direct GitHub commit!

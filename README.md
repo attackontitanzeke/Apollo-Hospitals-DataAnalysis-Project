@@ -1,4 +1,4 @@
-# 🏥 Apollo Hospital Data Analysis Project
+`# 🏥 Apollo Hospital Data Analysis Project
 
 ## 🧠 Project Objective
 
@@ -10,7 +10,7 @@ The analysis provides a complete picture of patient admissions, bed occupancy, d
 
 While the raw dataset was processed within **Power BI** and **MySQL**, the key fields analyzed include:
 
-* **Patient\_ID**, **Admit Date**, **Discharge Date**, **Follow Up Date**
+* **Patient_ID**, **Admit Date**, **Discharge Date**, **Follow Up Date**
 * **Bed Occupancy** by department (ICU, General, Private)
 * **Diagnosis Type**
 * **Billing Amount**, **Health Insurance Amount**

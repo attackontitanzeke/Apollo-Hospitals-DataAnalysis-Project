@@ -6,8 +6,6 @@ This project aims to analyze operational, billing, and healthcare trends within 
 
 The analysis provides a complete picture of patient admissions, bed occupancy, diagnostic trends, billing vs insurance alignment, and doctor-specific feedback performance.
 
---
-
 ## 📁 Dataset Overview
 
 While the raw dataset was processed within **Power BI** and **MySQL**, the key fields analyzed include:
@@ -18,8 +16,6 @@ While the raw dataset was processed within **Power BI** and **MySQL**, the key f
 * **Billing Amount**, **Health Insurance Amount**
 * **Test Type** (MRI, CT Scan, X-Ray, etc.)
 * **Doctor Feedback Volume**
-
---
 
 ## 📌 Key Questions Answered
 
@@ -33,8 +29,6 @@ While the raw dataset was processed within **Power BI** and **MySQL**, the key f
 8. **How much revenue is generated monthly?**
 9. **What is the patient follow-up compliance rate?**
 10. **Which departments have the highest occupancy pressure?**
-
---
 
 ## 🔄 Process Followed
 
@@ -67,15 +61,12 @@ While the raw dataset was processed within **Power BI** and **MySQL**, the key f
 * Custom charts for doctor-wise feedback, diagnosis breakdown, and insurance analysis.
 * Slicers enabled department-wise filtering and dynamic report interaction.
 
---
-
 ## 📊 Dashboard Preview
 
 📎 **Download/View Dashboard (PDF)**: [`Apollo Hospital Analysis.pdf`](./Apollo%20Hospital%20Analysis.pdf)
 
 ![p1](https://github.com/user-attachments/assets/411e58ea-bf10-4717-b1e9-32dbc1b5e708)
 
---
 
 ## 🔍 Key Insights
 
@@ -86,8 +77,6 @@ While the raw dataset was processed within **Power BI** and **MySQL**, the key f
 * **Private and ICU beds** saw higher usage, suggesting a demand for premium care services.
 * **Average length of stay** was around 3.2 days — an important indicator of recovery efficiency.
 
---
-
 ## 🧾 Conclusion
 
 This analysis provides Apollo Hospitals with critical operational insights:
@@ -96,8 +85,6 @@ This analysis provides Apollo Hospitals with critical operational insights:
 * Strategic planning for **test and billing optimization**
 * Improved **insurance alignment** for financial planning
 * Enhanced **doctor performance tracking** and patient follow-up management
-
---
 
 ## ⚙️ Tools Used
 

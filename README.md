@@ -1,4 +1,4 @@
-`# 🏥 Apollo Hospital Data Analysis Project
+# 🏥 Apollo Hospital Data Analysis Project
 
 ## 🧠 Project Objective
 

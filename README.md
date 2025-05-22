@@ -8,7 +8,7 @@ The analysis provides a complete picture of patient admissions, bed occupancy, d
 
 ## 📁 Dataset Overview
 
-While the raw dataset was processed within **Power BI** and **MySQL**, the key fields analyzed include:
+While the raw dataset was processed within **Power BI**, **Python** and **MySQL**, the key fields analyzed include:
 
 * **Patient_ID**, **Admit Date**, **Discharge Date**, **Follow Up Date**
 * **Bed Occupancy** by department (ICU, General, Private)
@@ -32,13 +32,22 @@ While the raw dataset was processed within **Power BI** and **MySQL**, the key f
 
 ## 🔄 Process Followed
 
-### 1. **Data Cleaning & Formatting**:
+### 1. ***Data Cleaning & Preprocessing (Python)**:
+* Utilized Python libraries such as pandas for data manipulation.
+* Handled missing values, standardized date formats, and corrected inconsistencies.
+* Exported the cleaned dataset for further analysis.
 
-* Cleaned and standardized date fields like *Admit Date*, *Discharge Date*, and *Follow Up Date* using SQL.
-* Converted inconsistent or invalid dates (e.g., `'00-01-1900'`) to `NULL`.
-* Ensured numeric fields like billing and insurance amounts were formatted as proper decimals.
+### 2. ***Data Transformation & KPI Calculation**:
+* Imported the cleaned dataset into MySQL Workbench.
+* Created new date columns in DATE format using STR_TO_DATE() for accurate querying.
+* Calculated key performance indicators (KPIs) such as:
+   * Total Revenue
+   * Average Length of Stay
+   * Monthly Revenue Trends
+   * Follow-Up Compliance Rates
+   * Insurance Recovery Percentage
 
-### 2. **SQL Analysis & KPI Calculation**:
+### 3. **SQL Analysis & KPI Calculation**:
 
 * Loaded the cleaned data into **MySQL Workbench**.
 * Created new date columns in `DATE` format using `STR_TO_DATE()` for accurate querying.
@@ -51,12 +60,12 @@ While the raw dataset was processed within **Power BI** and **MySQL**, the key f
   * Insurance Recovery Percentage
 * These queries helped validate Power BI visuals and uncover new patterns.
 
-### 3. **Data Modeling in Power BI**:
+### 4. **Data Modeling in Power BI**:
 
 * Relationships were built around *Patient\_ID*.
 * Fact tables were structured for billing, test revenue, and feedback metrics.
 
-### 4. **Visualization & Insights**:
+### 5. **Visualization & Insights**:
 
 * Custom charts for doctor-wise feedback, diagnosis breakdown, and insurance analysis.
 * Slicers enabled department-wise filtering and dynamic report interaction.
@@ -87,8 +96,8 @@ This analysis provides Apollo Hospitals with critical operational insights:
 * Enhanced **doctor performance tracking** and patient follow-up management
 
 ## ⚙️ Tools Used
-
+* Jupyter Notebook
 * Microsoft Power BI
 * Power Query Editor
-* **MySQL Workbench** (for structured data transformation and KPI querying)
+* MySQL Workbench
 
